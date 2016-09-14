@@ -1,3 +1,11 @@
+## To Run
+
+Clone down repo and run commands
+
+`npm install`
+`npm start`
+`open http://localhost:3000`
+
 ## Your challenge, should you choose to accept it
 1. Clone this repo (or download the zip archive) to get started.
 2. The page should look like [business_overview.png](business_overview.png) on the page load:
