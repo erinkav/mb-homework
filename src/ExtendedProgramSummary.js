@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 
 export default class ExtendedProgramSummary extends React.Component {
+  constructor(props) {
+    super(props)
+  }
+
   render () {
     return (
-      <div className='extended-program-summary'>
+      <div className={this.props.visible ? 'extendSummary' : 'hideSummary'}>
         <span className="col-3">
           <p className="extended-program-summary-label">Price Name</p>
           <p className="extended-program-entry"> Monthly Unlimit...</p>

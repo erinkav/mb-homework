@@ -5,11 +5,13 @@ export default class ProgramListEntry extends React.Component {
     return (
       <div className='program-list-entry'>
           <span>
+            {this.props.name}
           </span>
           <span>
+            {this.props.sales}
           </span>
-          <span>
-            
+          <span>            
+            {this.props.visits} visits
           </span>
       </div>
     )

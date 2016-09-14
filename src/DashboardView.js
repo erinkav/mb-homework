@@ -34,7 +34,9 @@ export default class DashboardView extends React.Component {
 
         <div className='programs-dashboard'>
           <div className='left-dashboard'>
-            <button className='button' onClick={this.showModal} />
+            <button className='program-button' onClick={this.showModal} >
+              <img className='addButtonImage'src="../assets/plus_icon.png" />
+            </button>
           </div>
           <div className='right-dashboard'> 
             {this.state.classes.map((name, index) => {

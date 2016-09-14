@@ -20,18 +20,29 @@ body {
 .tab-menu {
   float: right;
   width: 70%;
+  padding-top: 35px;
+  margin-right: 60px;
+
 }
 
 .tab {
   display: inline-block;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 30px 10px 30px;
   float: right;
+  background-color: white;
+  border-radius: 3px;
+  border: 1px #D9D9D0 solid;
+
 }
 
 .sub-menu {
-  margin-left: 40px;
-  height: 50px;
+  padding-left: 60px;
+  padding-top: 20px;
+  height: 40px;
+  background-color: white;
+
 }
+
 
 .sub-menu-options {
   height: 30px;
@@ -45,8 +56,9 @@ body {
 /*DASHBOARD FORMATTING */
 
 .dashboard {
-  padding: 30px 60px ;
+  margin: 30px 60px ;
   overflow: auto;
+  width: 1150px;
 }
 
 .programs-dashboard {
@@ -63,14 +75,23 @@ body {
 
 .right-dashboard {
   display:inline-block;
-  float: right;
-  width: auto;
+  float: left;
+  width: 950px;
   overflow: auto;
 }
 
 .program-list {
   float: left;
   display: block;
+  padding: 30px;
+}
+
+.program-button {
+  height: 70px;
+  width: 70px;
+  background-color: #A0C489;
+  margin: 50px 75px 75px;
+
 }
 
 /*PROGRAM STYLES*/
@@ -79,12 +100,12 @@ body {
   float: left;
   display: inline-block;
   width: 250px;
-  height: 500px;
   border: 1px #D9D9D0 solid;
   padding: 10px;
   margin: 20px;
   font-size: 20px;
   background-color: white; 
+  overflow: auto;
 }
 
 .program-summary {
@@ -112,31 +133,43 @@ body {
 
 .col-1 {
   width: 80px;
+  padding: 2px;
 }
 
 .col-2 {
   width: 55px;
-
+  padding: 2px;
 }
 
 .col-3 {
   width: 60px;
+  padding: 2px;
 
 }
 
-.graph {
+.edit {
+  background: url(../assets/pencil_icons.png);
+  display: inline-block;
+  background-position: 0px 17px; 
+  height: 17px;
+  width: 18px;
+}
 
+.hover {
+  background-position: 0% 0%; 
 }
 
 .graph-label {
   font-size: 10px;
 }
 
-.extend {
-
+.hideSummary {
+  visibility: hidden;
+  display: none;
 }
 
-.extended-program-summary {
+.extendSummary {
+  visibility:show;
 }
 
 .extended-program-summary-label {
@@ -152,7 +185,7 @@ body {
 }
 
 .extended-program-num {
-  font-size: 9px;
+  font-size: 9px; 
 }
 
 .show-modal {
@@ -165,9 +198,47 @@ body {
   -webkit-transition: 0.6s;
   background-color: white;
   display: block;
+  border: 1px black solid;
+  border-radius: 3px;
 }
 
 .hide-modal {
   visibility: hidden
 }
 
+/* FORM STYLING */
+
+form {
+  padding: 20px;
+}
+
+.form-element {
+  margin: 5px;
+}
+
+.submit-program {
+  bottom: 20px;
+  right: 15px;
+}
+
+/* PROGRAM LIST */
+
+.program-list-headers > span{
+  display: inline-block;
+  width: 100px;
+  padding: 5px;
+  margin-right: 40px;
+}
+
+.program-list-entry > span {
+  display: inline-block;
+  width: 100px;
+  padding: 5px;
+  margin-right: 40px;
+}
+
+br {
+  border: 1px #D9D9D0 solid;
+  color: #D9D9D0;
+
+}

@@ -26,27 +26,27 @@ export default class AddModal extends React.Component {
     return (
       <div className={`${this.props.visible ? 'show-modal' : 'hide-modal'}`}>
         <form>
-          <select>
+          <select className='form-element dropdown'>
             <option>Count Series</option>
             <option>Time Series</option>
             <option>Membership</option>
           </select>
-          <input type="text" placeholder="Program name" onChange={this.handleName} />
-          <label>Allow Online Scheduling?</label>
+          <input className='form-element input' type="text" placeholder="Program name" onChange={this.handleName} />
+          <label className='form-element'>Allow Online Scheduling?</label>
           <label>Yes</label>
-          <input type="radio" name="onlineSchedule" value="Yes" />
+          <input className='form-element' type="radio" name="onlineSchedule" value="Yes" />
           <label>No</label>
-          <input type="radio" name="onlineSchedule" value="No" />
+          <input className='form-element' type="radio" name="onlineSchedule" value="No" />
           <label> Default capacity: 
-            <input type="text" placeholder="Default capacity" />
+            <input className='form-element' type="text" placeholder="Default capacity" />
           </label>
-          <label>Classes<input type="checkbox" /></label>
-          <label>Appointments<input type="checkbox" /></label>
-          <label>Workshops<input type="checkbox" /></label>
-          <label>Outside<input type="checkbox" /></label>
-          <label>Inside<input type="checkbox" /></label>
-          <label>Gym<input type="checkbox" /></label>
-          <button type="submit" onClick={this.sendProgramData} > Submit </button>
+          <label>Classes<input className='form-element' type="checkbox" /></label>
+          <label>Appointments<input className='form-element' type="checkbox" /></label>
+          <label>Workshops<input className='form-element' type="checkbox" /></label>
+          <label>Outside<input className='form-element' type="checkbox" /></label>
+          <label>Inside<input className='form-element' type="checkbox" /></label>
+          <label>Gym<input className='form-element' type="checkbox" /></label>
+          <button className='form-element submit-program' type="submit" onClick={this.sendProgramData} > Submit </button>
         </form>
       </div>
     )

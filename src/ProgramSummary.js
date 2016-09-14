@@ -9,7 +9,7 @@ export default class ProgramSummary extends React.Component {
         </span>
         <span className='col-2'>
           <p className="program-summary-label"> Current </p>
-          <p className="program-summary-number"> Number Placeholder </p>
+          <p className="program-summary-number">  $23,483 </p>
         </span>
         <span className='col-3'>
           <p  className="program-summary-label">1 year</p>
