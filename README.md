@@ -2,9 +2,9 @@
 
 Clone down repo and run commands
 
-`npm install`
-`npm start`
-`open http://localhost:3000`
+```npm install
+npm start
+open http://localhost:3000```
 
 ## Your challenge, should you choose to accept it
 1. Clone this repo (or download the zip archive) to get started.
