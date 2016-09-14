@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  font-family: Futura, sans-serif;
+   background-color: #F3F3EC;
+}
+
+/*HEADER AND NAVIGATION STYLES*/
+
+.header {
+  height: 75px;
+  background-color: #ECF7F2;
+  width: 100%;
+}
+
+.logo {
+  float: left;
+  margin-left: 30px;
+}
+
+.tab-menu {
+  float: right;
+  width: 70%;
+}
+
+.tab {
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  float: right;
+}
+
+.sub-menu {
+  margin-left: 40px;
+  height: 50px;
+}
+
+.sub-menu-options {
+  height: 30px;
+  padding: 10px 20px 10px 20px;
+}
+
+.sub-menu-options-selected {
+  font-weight: bold;
+}
+
+/*DASHBOARD FORMATTING */
+
+.dashboard {
+  padding: 30px 60px ;
+  overflow: auto;
+}
+
+.programs-dashboard {
+  width: 100%;
+  overflow: auto;
+}
+
+.left-dashboard {
+  display: inline-block;
+  float: left;
+  width: 200px;
+  overflow: auto;
+}
+
+.right-dashboard {
+  display:inline-block;
+  float: right;
+  width: auto;
+  overflow: auto;
+}
+
+.program-list {
+  float: left;
+  display: block;
+}
+
+/*PROGRAM STYLES*/
+
+.program {
+  float: left;
+  display: inline-block;
+  width: 250px;
+  height: 500px;
+  border: 1px #D9D9D0 solid;
+  padding: 10px;
+  margin: 20px;
+  font-size: 20px;
+  background-color: white; 
+}
+
+.program-summary {
+  font-size: 11px;
+  color: #80806c;
+  background-color: #FBFBF6; 
+  border-top: 1px #D9D9D0 solid;
+  border-bottom: 1px #D9D9D0 solid;
+}
+
+.program-summary-label {
+  font-size: 9px;
+  font-color: #a1a191;
+
+}
+
+.program-summary-number {
+  font-size: 9px;
+  color: black;
+}
+
+.col-1, .col-2, .col-3 {
+  display: inline-block; 
+}
+
+.col-1 {
+  width: 80px;
+}
+
+.col-2 {
+  width: 55px;
+
+}
+
+.col-3 {
+  width: 60px;
+
+}
+
+.graph {
+
+}
+
+.graph-label {
+  font-size: 10px;
+}
+
+.extend {
+
+}
+
+.extended-program-summary {
+}
+
+.extended-program-summary-label {
+  font-size: 12px;
+}
+
+.extended-program-entry {
+  font-size: 11px;
+}
+
+.extended-program-entry {
+  font-size: 10px;
+}
+
+.extended-program-num {
+  font-size: 9px;
+}
+
+.show-modal {
+  position: fixed;
+  top: 200px;
+  margin: 0 auto;
+  height: 300px;
+  width: 500px;
+  left: 200px;
+  -webkit-transition: 0.6s;
+  background-color: white;
+  display: block;
+}
+
+.hide-modal {
+  visibility: hidden
+}
+
